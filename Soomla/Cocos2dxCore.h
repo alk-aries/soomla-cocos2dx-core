@@ -33,7 +33,7 @@
 #include "CCRewardStorage.h"
 
 #ifdef COCOS2D_JAVASCRIPT
-#include "jsb_soomla.h"
+#include "jsb/jsb_soomla.h"
 #endif
 
 #endif
