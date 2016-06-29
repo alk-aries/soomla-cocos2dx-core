@@ -44,7 +44,7 @@ namespace soomla {
 
     void CCSoomlaEventDispatcher::ndkCallback(__Dictionary *parameters) {
 #ifdef COCOS2D_JAVASCRIPT
-        Soomla::JSBinding::callCallback(parameters);
+        // Soomla::JSBinding::callCallback(parameters);
 #else
         __String *eventName = dynamic_cast<__String *>(parameters->objectForKey("method"));
         if (eventName == NULL) {
